@@ -28,7 +28,7 @@ function PromotionBanner() {
   async function getPdfLink() {
     try {
       const response = await fetch(
-        "https://custom-app.accounteditor.com/custom_requirement/sunberryrx/pdflink.php",
+        "https://dev.shopifyexperthelp.com/app/account-editor/sunberryrx/pdflink.php",
         
         {
           method: "POST",
